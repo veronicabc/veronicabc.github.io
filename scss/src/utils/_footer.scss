@@ -1,0 +1,41 @@
+.footer-h {
+    background-color: #C3DAE8;
+    display:flex;
+    
+    justify-content:space-between;
+    flex-wrap: wrap;
+ }
+
+ .media_footer{
+    display: flex;
+    margin: 20px;
+}
+
+ .behance {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+ }
+ 
+ .linkedin {
+    height: 30px;
+    width: 30px;
+ }
+
+ .derechos {
+    margin:20px;
+    font-size: 14px;
+    color: #B1B2B3;
+    text-align: center;
+
+ }
+
+
+
+ @media(max-width:400px){
+
+    .footer-h{
+      justify-content: center;
+    }
+
+ }

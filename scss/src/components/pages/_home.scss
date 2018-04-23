@@ -1,0 +1,108 @@
+/*general*/
+
+.container-h {
+    display:grid;
+    height: 100vh;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+    "header"
+    "contenido"
+    "footer";
+    grid-template-rows: 1fr 2fr 0.5fr;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*header*/
+.header-h {
+    background-color:  #ECE9E4;
+    background-image: url(img/RamaSuperior-op-5060.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    height: 200px;
+    background-position: center bottom;  
+    grid-area: header;
+}
+
+
+
+.logo-h {
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin:20px 20px 0 0;
+
+}
+
+
+/*content*/
+
+.content-h {
+    background-color: #ECE9E4; 
+    grid-area: contenido;
+}
+
+.portfolio {
+    // display: block;
+    transform: rotate(90deg);
+	transform-origin: left top 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #B5B8B9;
+    font-size: 1rem;
+    float: right;
+
+}
+.item-hola {
+    font-size: 1rem;
+    color :#CAD1D3;
+
+}
+
+.item-soy {
+    font-size: 2.2rem;
+    color:#6D6D6D;
+}
+.item-experiencia {
+    font-size: 1.5rem;
+    color:  #8C8F94;
+
+}
+
+
+/*footer*/
+.footer-h {
+    display: flex;
+    background-color: #C3DAE8;
+    grid-area: footer;
+    /* justify-content: space-between; */
+    align-content: center;
+}
+.behance {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+}
+
+.linkedin {
+    display:flex;
+    height: 30px;
+    width: 30px;
+   
+    
+}
+
+
+
+.derechos {
+    font-size: 14px;
+    color: #B1B2B3;
+  text-align: center;
+}
+.scroll {
+    font-size: 14px;
+    color: #717171;
+    background: #FCC61F;
+    height: 30px;
+    width: 60px;
+}

@@ -1,0 +1,245 @@
+/* line 1, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+/* line 7, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.circle1c {
+  background: #3F88FB;
+  justify-self: center;
+  align-self: center;
+}
+
+/* line 13, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.circle2c {
+  background: #FFC543;
+  justify-self: center;
+  align-self: center;
+}
+
+/* line 18, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.circle3c {
+  background: #9b9b9b;
+  justify-self: center;
+  align-self: center;
+}
+
+/* line 24, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.project_cell_bullets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* line 29, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.project-head-grid {
+  grid-template-columns: repeat(8, 1fr);
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: "d d d d d d d d" "d d d d d d d d" "d d d d d d d d" "a a a a a a a a" "c c c c c c c c" "c c c c c c c c" "b b b b b b b b";
+}
+
+/* line 45, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.project_cell_bullets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-area: c;
+}
+
+/* line 51, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.project_cell_name {
+  grid-area: a;
+  justify-self: center;
+  align-self: center;
+}
+
+/* line 57, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.project_cell_typeface {
+  grid-area: b;
+  justify-self: center;
+  align-self: center;
+}
+
+/* line 63, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.project_cell_image {
+  grid-area: d;
+}
+
+/* line 68, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.typeface {
+  text-align: center;
+}
+
+/* line 72, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.project_big_number {
+  font-size: 3rem;
+}
+
+/* line 76, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.project_body_grid {
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: "g g" "e e" "h h" "f f" "i i";
+}
+
+/* line 88, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.concept_project_p {
+  text-align: left;
+}
+
+/* line 92, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.images_project1 {
+  grid-area: e;
+}
+
+/* line 96, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.images_project2 {
+  grid-area: f;
+}
+
+/* line 100, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.concept_project {
+  grid-area: g;
+  text-align: center;
+}
+
+/* line 105, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.interfaces_project {
+  grid-area: h;
+  text-align: center;
+}
+
+/* line 110, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.wireframe_project {
+  grid-area: i;
+  text-align: center;
+}
+
+/* line 115, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.body_project {
+  padding: 50px;
+}
+
+/* line 119, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.body_pro {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #E4E1DC;
+}
+
+/* line 124, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.next_button {
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* line 133, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+.next_buton_project {
+  padding: 3rem;
+}
+
+@media (min-width: 700px) {
+  /* line 140, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+  .project-head-grid {
+    margin-top: 50px;
+    grid-template-columns: repeat(8, 1fr);
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "a a a c d d d d" "a a a c d d d d" "b b b c d d d d" "b b b c d d d d";
+  }
+  /* line 152, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+  .project_cell_bullets {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* line 157, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+  .project_cell_name {
+    grid-area: a;
+    justify-self: left;
+    align-self: center;
+  }
+  /* line 163, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+  .project_cell_typeface {
+    grid-area: b;
+    justify-self: left;
+    align-self: center;
+  }
+  /* line 169, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+  .project_body_grid {
+    margin-top: 50px;
+    grid-template-columns: repeat(8, 1fr);
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "e e e e g g g g" "e e e e g g g g" "e e e e h h h h" "f f f f h h h h" "f f f f i i i i" "f f f f i i i i";
+  }
+  /* line 183, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+  .concept_project {
+    grid-area: g;
+    text-align: left;
+    margin-left: 20px;
+  }
+  /* line 189, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+  .interfaces_project {
+    grid-area: h;
+    text-align: left;
+    margin-left: 20px;
+  }
+  /* line 195, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+  .wireframe_project {
+    grid-area: i;
+    text-align: left;
+    margin-left: 20px;
+  }
+  /* line 201, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+  .next_button {
+    width: 200px;
+  }
+  /* line 205, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+  .next_buton_project {
+    float: right;
+  }
+}
+
+@media (min-width: 1000px) {
+  /* line 215, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+  .project-head-grid {
+    grid-template-columns: repeat(10, 1fr);
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: ". a a a c d d d d . " ". a a a c d d d d . " ". b b b c d d d d . " ". b b b c d d d d . ";
+  }
+  /* line 226, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+  .project_body_grid {
+    margin-top: 50px;
+    grid-template-columns: repeat(10, 1fr);
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: ". e e e e g g g g ." ". e e e e g g g g ." ". e e e e h h h h ." ". f f f f h h h h ." ". f f f f i i i i ." ". f f f f i i i i .";
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 245, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+  .project-head-grid {
+    grid-template-columns: repeat(12, 1fr);
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: ". . a a a c d d d d . . " ". . a a a c d d d d . . " ". . b b b c d d d d . . " ". . b b b c d d d d . . ";
+  }
+  /* line 256, /Users/hectorvintromarti/Desktop/NICA/Portfolio/scss/src/components/pages/vintta.scss */
+  .project_body_grid {
+    margin-top: 50px;
+    grid-template-columns: repeat(12, 1fr);
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: ". . e e e e g g g g . ." ". . e e e e g g g g . ." ". . e e e e h h h h . ." ". . f f f f h h h h . ." ". . f f f f i i i i . ." ". . f f f f i i i i . .";
+  }
+}
+
+/*# sourceMappingURL=../../../../css/src/components/pages/vintta.map */

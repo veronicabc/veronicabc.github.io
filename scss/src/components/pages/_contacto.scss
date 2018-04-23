@@ -1,0 +1,50 @@
+.container-c {
+    display:grid;
+    height: 100vh;
+    display: grid;
+    grid-gap: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    grid-template-areas:
+    "header"
+    "contenido"
+    "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+
+ }
+
+ .header-c {
+     background-color: #E4E1DC;
+     grid-area: header;
+ }
+
+ .contenido-c {
+    background-color: #C3DAE8;
+    grid-area: contenido;
+ }
+
+ .footer-c {
+    background-color: #E4E1DC;
+    grid-area: footer;
+ }
+
+ .correo-c {
+     font-size: 2rem;
+     color: white;
+     font-weight: 700px;
+     text-align: center;
+ }
+
+ .texto-c {
+     font-size: 1.2rem;
+     color:#646464;
+     text-align: center;
+ }
+
+ .titulo-pagina {
+     color: #B1B2B3;
+     padding-left: 3rem;
+    
+     
+ }
+
